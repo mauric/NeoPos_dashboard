@@ -5,8 +5,7 @@ class CardCantVentas extends Component {
     render(){
 
         return ( 
-            
-       
+    
 							<div class="card border-left-warning shadow h-100 py-2">
 								<div class="card-body">
 									<div class="row no-gutters align-items-center">
@@ -23,7 +22,7 @@ class CardCantVentas extends Component {
 							</div>
 						
     );
-}
+	}
 
 }
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SideBar.css';
 
 
 class SideBar extends Component {
@@ -6,7 +7,7 @@ class SideBar extends Component {
 
         return ( 
             
-            <div className="d-flex flex-row">
+            <div class="d-flex flex-row sidebar">
                <a href="/shop"><i class="fa fa-home"></i></a>
             </div>
     );

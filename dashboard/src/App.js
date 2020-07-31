@@ -7,6 +7,7 @@ import CardTotalVisitas from './components/CardTotalVisitas';
 import SideBar from './components/SideBar';
 import TopBar from './components/TopBar';
 import CardContact from './components/CardContact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-12">
+                      <TopBar />
                     </div>
                   </div>
                   <div className="row">
@@ -40,6 +42,11 @@ function App() {
                       <div className="row">
                         <div className="col-md-12">
                           <CardContact />
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-md-12">
+                          
                         </div>
                       </div>
                     </div>

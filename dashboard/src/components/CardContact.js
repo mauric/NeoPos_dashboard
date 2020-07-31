@@ -7,7 +7,7 @@ class CardContact extends Component {
         return ( 
         <div>
             
-            <div className="card-title"> Clientes Recientes</div>
+            <p> Clientes Recientes</p>
             <table class="table table-striped">
   
                 <tbody>
