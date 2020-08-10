@@ -10,6 +10,8 @@ import CardContact from './components/CardContact';
 import Footer from './components/Footer';
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -44,12 +46,16 @@ function App() {
                           <CardContact />
                         </div>
                       </div>
-                      <div className="row">
-                        <div className="col-md-12">
+                    </div>
+                    <div className="container-fluid"></div>
+                      <div className="row footer">
+                        <div className="col-md-5">
+                          <Footer />
+                        </div>
+                        <div className="col-md-7">
                           
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
       <script src="https://kit.fontawesome.com/2aa1bb4704.js" crossorigin="anonymous"></script>

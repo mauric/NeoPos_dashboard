@@ -1,0 +1,8 @@
+.sidebar {
+    background-color: green;
+    height: 100%;
+}
+
+.sidebar button {
+    padding-top: 30vh;
+}

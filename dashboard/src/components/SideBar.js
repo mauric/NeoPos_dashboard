@@ -7,8 +7,8 @@ class SideBar extends Component {
 
         return ( 
             
-            <div class="d-flex flex-row sidebar">
-               <a href="/shop"><i class="fa fa-home"></i></a>
+            <div className="sidebar">
+              <button className="btn btn-succes">VOLVER</button>
             </div>
     );
 }

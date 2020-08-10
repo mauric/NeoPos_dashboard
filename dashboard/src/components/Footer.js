@@ -5,7 +5,10 @@ class Footer extends Component {
     render() {
 
         return (
-            <div></div>
+            <div>
+           
+                <p>NeoPos todos los ecommerce. Un solo lugar</p>
+            </div>
 
         );
     }

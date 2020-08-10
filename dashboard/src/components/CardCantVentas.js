@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-
+import './Card.css';
 
 class CardCantVentas extends Component {
     render(){
 
         return ( 
     
-							<div class="card border-left-warning shadow h-100 py-2">
+							<div class="card carta border-left-warning shadow h-100 py-2">
 								<div class="card-body">
 									<div class="row no-gutters align-items-center">
 										<div class="col mr-2">

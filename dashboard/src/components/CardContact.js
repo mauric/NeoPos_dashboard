@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-
+import './CardContact.css';
 
 class CardContact extends Component {
     render(){
 
         return ( 
-        <div>
-            
-            <p> Clientes Recientes</p>
+        <div className="container">
+            <div className="row">
+                <div className="col-12 p-2">
+                    <h3> Clientes Recientes</h3>
+
+                </div>
+
+            </div>
             <table class="table table-striped">
   
                 <tbody>
