@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Card.css';
 class CardTotalVentas extends Component {
-    render(){
+    render(props){
 
         return ( 
             
@@ -12,7 +12,7 @@ class CardTotalVentas extends Component {
 										<div class="col mr-2">
 											<div class="text-xl font-weight-bold text-uppercase mb-1">Total de Ventas
 											</div>
-											<div class="h5 mb-0 font-weight-bold text-gray-800">$75000</div>
+											<div class="h5 mb-0 font-weight-bold text-gray-800">$100000</div>
 										</div>
 										<div class="col-auto">
 											<i class="fas fa-user-check fa-2x text-gray-300"></i>

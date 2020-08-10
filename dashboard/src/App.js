@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
+
 import CardCantVentas from './components/CardCantVentas';
 import CardTotalVentas from './components/CardTotalVentas';
 import CardTotalVisitas from './components/CardTotalVisitas';
@@ -43,7 +44,7 @@ function App() {
                       </div>
                       <div className="row">
                         <div className="col-md-12">
-                          <CardContact />
+                          
                         </div>
                       </div>
                     </div>

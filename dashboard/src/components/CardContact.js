@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './CardContact.css';
 
 class CardContact extends Component {
-    render(){
+    render(props){
 
         return ( 
         <div className="container">
@@ -13,45 +13,23 @@ class CardContact extends Component {
                 </div>
 
             </div>
-            <table class="table table-striped">
-  
-                <tbody>
-                    <tr>
-                        <th scope="row">Nombre</th>
-                        <td>Fecha</td>
-                        <td>Direccion</td>
-                        <td><button type="button" class="btn btn-success">Ver</button></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Nombre</th>
-                        <td>Fecha</td>
-                        <td>Direccion</td>
-                        <td><button type="button" class="btn btn-success">Ver</button></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Nombre</th>
-                        <td>Fecha</td>
-                        <td>Direccion</td>
-                        <td><button type="button" class="btn btn-success">Ver</button></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Nombre</th>
-                        <td>Fecha</td>
-                        <td>Direccion</td>
-                        <td><button type="button" class="btn btn-success">Ver</button></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Nombre</th>
-                        <td>Fecha</td>
-                        <td>Direccion</td>
-                        <td><button type="button" class="btn btn-success">Ver</button></td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <div>
+                <table class="table table-striped">
+                    { props.clientes.map( unCliente =>
+                    <tbody>
+                            <tr>
+                                <th scope="row">{unCliente.nombre}</th>
+                                <td>{unCliente.date}</td>
+                                <td>{unCliente.email}</td>
+                                <td><button type="button" class="btn btn-success">Ver</button></td>
+                            </tr>
+                    </tbody>)}
+                </table>
+            </div>
         </div>
     );
 }
-
 }
 
 export default CardContact;

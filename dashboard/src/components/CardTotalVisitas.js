@@ -12,7 +12,7 @@ class CardTotalVisitas extends Component {
 										<div class="col mr-2">
 											<div class="text-xl font-weight-bold text-uppercase mb-1">Total De Visitas
 											</div>
-											<div class="h5 mb-0 font-weight-bold text-gray-800">38</div>
+											<div class="h5 mb-0 font-weight-bold text-gray-800">75</div>
 										</div>
 										<div class="col-auto">
 											<i class="fas fa-user-check fa-2x text-gray-300"></i>
